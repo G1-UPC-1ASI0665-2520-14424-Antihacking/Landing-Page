@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" id="metaDescription" content="PentGuin protege a las PyMEs con pentesting, hacking ético e informes ejecutivos ágiles. Descubre nuestros servicios de seguridad ofensiva y agenda una evaluación." />
+  <meta name="keywords" content="pentesting, hacking ético, ciberseguridad, consultora, APIs, OWASP, Perú" />
+  <meta property="og:title" id="ogTitle" content="PentGuin | Consultora de Ciberseguridad" />
+  <meta property="og:description" id="ogDescription" content="Protegemos el futuro de tu PyME contra amenazas digitales con servicios de pentesting, seguridad de APIs y metodologías ágiles." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://pentguin.example" />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1510511459019-5dda7724fd87?auto=format&fit=crop&w=1200&q=80" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="canonical" href="https://pentguin.example" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <script src="https://unpkg.com/globe.gl@2.31.0/dist/globe.gl.min.js"></script>
+  <title>PentGuin | Consultora de Ciberseguridad</title>
+</head>
+<body>
+  <header class="site-header">
+    <div class="nav-bar">
+      <a href="#hero" class="logo" aria-label="PentGuin home">
+        <span>PentGuin</span>
+      </a>
+      <nav aria-label="Main navigation">
+        <ul>
+          <li><a href="#servicios" data-i18n="nav.services">Servicios</a></li>
+          <li><a href="#metodologia" data-i18n="nav.methodology">Metodología</a></li>
+          <li><a href="#nosotros" data-i18n="nav.about">Nosotros</a></li>
+          <li><a href="#contacto" data-i18n="nav.contact">Contactos</a></li>
+        </ul>
+      </nav>
+      <div class="nav-controls">
+        <div class="language-switch" role="group" aria-label="Language switcher">
+          <button type="button" class="lang-btn active" data-lang="es" aria-pressed="true">ES</button>
+          <button type="button" class="lang-btn" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+        <button class="theme-toggle" id="themeToggle" type="button" data-i18n-aria-label="ui.themeToggleAria" aria-label="Cambiar tema" aria-pressed="false">
+          <span class="theme-icon" aria-hidden="true">🌙</span>
+          <span class="theme-text" id="themeLabel">Modo oscuro</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="section-wrapper hero-grid">
+        <div class="hero-copy">
+          <p class="section-kicker" data-i18n="hero.kicker">Consultora ofensiva</p>
+          <h1 data-i18n="hero.title">Protegemos el futuro de tu PyME contra amenazas digitales.</h1>
+          <p class="lead" data-i18n="hero.description">Servicios especializados de Hacking Ético y Pentesting para identificar y mitigar vulnerabilidades críticas en tus sistemas.</p>
+          <div class="hero-cta">
+            <a href="#contacto" class="btn primary" data-i18n="hero.cta">Solicitar una Evaluación</a>
+            <p class="hero-note" data-i18n="hero.note">Respuesta inicial en menos de 24 horas.</p>
+          </div>
+          <div class="metrics">
+            <div class="metric">
+              <span class="metric-value" data-i18n="hero.metrics.0.value">+120</span>
+              <span class="metric-label" data-i18n="hero.metrics.0.label">Pentests empresariales entregados</span>
+            </div>
+            <div class="metric">
+              <span class="metric-value" data-i18n="hero.metrics.1.value">72h</span>
+              <span class="metric-label" data-i18n="hero.metrics.1.label">Primeros hallazgos críticos</span>
+            </div>
+            <div class="metric">
+              <span class="metric-value" data-i18n="hero.metrics.2.value">24/7</span>
+              <span class="metric-label" data-i18n="hero.metrics.2.label">Cobertura LATAM & remota</span>
+            </div>
+          </div>
+          <div class="trust-bar">
+            <div class="trust-label-block">
+              <p class="trust-label" data-i18n="hero.trust.title">Confían en PentGuin</p>
+              <span class="trust-signal" aria-hidden="true"></span>
+            </div>
+            <div class="trust-logos">
+              <span class="trust-chip">
+                <span class="chip-glow" aria-hidden="true"></span>
+                <svg class="chip-icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M12 2L4 6v6c0 5 3.5 9.7 8 10 4.5-.3 8-5 8-10V6l-8-4Z" fill="currentColor" opacity="0.6"/>
+                  <path d="M12 5.6 6.5 8.3v3.4c0 3.6 2.2 7.1 5.5 7.3 3.3-.2 5.5-3.8 5.5-7.3V8.3L12 5.6Z" fill="none" stroke="currentColor" stroke-width="1.2" opacity="0.85"/>
+                </svg>
+                <span>AWS Security</span>
+              </span>
+              <span class="trust-chip">
+                <span class="chip-glow" aria-hidden="true"></span>
+                <svg class="chip-icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M12 2L4 6v6c0 5 3.5 9.7 8 10 4.5-.3 8-5 8-10V6l-8-4Z" fill="currentColor" opacity="0.6"/>
+                  <path d="M12 5.6 6.5 8.3v3.4c0 3.6 2.2 7.1 5.5 7.3 3.3-.2 5.5-3.8 5.5-7.3V8.3L12 5.6Z" fill="none" stroke="currentColor" stroke-width="1.2" opacity="0.85"/>
+                </svg>
+                <span>Azure Defender</span>
+              </span>
+              <span class="trust-chip">
+                <span class="chip-glow" aria-hidden="true"></span>
+                <svg class="chip-icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M12 2L4 6v6c0 5 3.5 9.7 8 10 4.5-.3 8-5 8-10V6l-8-4Z" fill="currentColor" opacity="0.6"/>
+                  <path d="M12 5.6 6.5 8.3v3.4c0 3.6 2.2 7.1 5.5 7.3 3.3-.2 5.5-3.8 5.5-7.3V8.3L12 5.6Z" fill="none" stroke="currentColor" stroke-width="1.2" opacity="0.85"/>
+                </svg>
+                <span>Fortinet NSE</span>
+              </span>
+              <span class="trust-chip">
+                <span class="chip-glow" aria-hidden="true"></span>
+                <svg class="chip-icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M12 2L4 6v6c0 5 3.5 9.7 8 10 4.5-.3 8-5 8-10V6l-8-4Z" fill="currentColor" opacity="0.6"/>
+                  <path d="M12 5.6 6.5 8.3v3.4c0 3.6 2.2 7.1 5.5 7.3 3.3-.2 5.5-3.8 5.5-7.3V8.3L12 5.6Z" fill="none" stroke="currentColor" stroke-width="1.2" opacity="0.85"/>
+                </svg>
+                <span>Google Cloud</span>
+              </span>
+              <span class="trust-chip">
+                <span class="chip-glow" aria-hidden="true"></span>
+                <svg class="chip-icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M12 2L4 6v6c0 5 3.5 9.7 8 10 4.5-.3 8-5 8-10V6l-8-4Z" fill="currentColor" opacity="0.6"/>
+                  <path d="M12 5.6 6.5 8.3v3.4c0 3.6 2.2 7.1 5.5 7.3 3.3-.2 5.5-3.8 5.5-7.3V8.3L12 5.6Z" fill="none" stroke="currentColor" stroke-width="1.2" opacity="0.85"/>
+                </svg>
+                <span>IBM X-Force</span>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <div id="globeViz" class="globe-container"></div>
+          <div class="glow-card highlight">
+            <p data-i18n="hero.glow.primaryTitle">Zero-Day Watchlist</p>
+            <ul>
+              <li data-i18n="hero.glow.primaryItem1">OWASP Top 10</li>
+              <li data-i18n="hero.glow.primaryItem2">MITRE ATT&CK</li>
+              <li data-i18n="hero.glow.primaryItem3">CVSS 4.0 Ready</li>
+            </ul>
+          </div>
+          <div class="glow-card stats">
+            <p data-i18n="hero.glow.secondaryTitle">Live Monitoring</p>
+            <span data-i18n="hero.glow.secondaryStat">+3.4M eventos/mes</span>
+            <small data-i18n="hero.glow.secondarySub">Telemetría ofensiva 24/7</small>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="servicios" class="section">
+      <div class="section-wrapper">
+        <p class="section-kicker" data-i18n="services.kicker">Servicios</p>
+        <div class="section-heading">
+          <h2 data-i18n="services.title">Nuestros Servicios de Seguridad Ofensiva</h2>
+          <p data-i18n="services.subtitle">Cobertura integral con pruebas manuales y automatizadas, adaptadas a tu madurez digital.</p>
+        </div>
+        <div class="card-grid">
+          <article class="service-card reveal">
+            <div class="card-icon">🕸️</div>
+            <h3 data-i18n="services.cards.0.title">Pentesting de Aplicaciones Web</h3>
+            <p data-i18n="services.cards.0.description">Análisis profundo bajo metodología OWASP Top 10.</p>
+          </article>
+          <article class="service-card reveal">
+            <div class="card-icon">🔗</div>
+            <h3 data-i18n="services.cards.1.title">Seguridad de APIs</h3>
+            <p data-i18n="services.cards.1.description">Evaluación de endpoints REST/SOAP para prevenir fugas de datos.</p>
+          </article>
+          <article class="service-card reveal">
+            <div class="card-icon">📱</div>
+            <h3 data-i18n="services.cards.2.title">Análisis de Aplicaciones Móviles</h3>
+            <p data-i18n="services.cards.2.description">Identificación de vulnerabilidades en tus apps iOS/Android.</p>
+          </article>
+          <article class="service-card reveal">
+            <div class="card-icon">🛡️</div>
+            <h3 data-i18n="services.cards.3.title">Auditoría de Redes y Servidores</h3>
+            <p data-i18n="services.cards.3.description">Escaneo y pruebas controladas de tu infraestructura de red.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="metodologia" class="section methodology">
+      <div class="section-wrapper">
+        <p class="section-kicker" data-i18n="methodology.kicker">Cómo trabajamos</p>
+        <div class="section-heading">
+          <h2 data-i18n="methodology.title">Un Proceso Transparente y Eficaz</h2>
+          <p data-i18n="methodology.subtitle">Integramos herramientas líderes y ceremonias ágiles para que tengas visibilidad completa de cada hallazgo.</p>
+        </div>
+        <div class="timeline">
+          <article class="timeline-step reveal">
+            <span class="step-number">01</span>
+            <div>
+              <h3 data-i18n="methodology.steps.0.title">Planificación y Alcance</h3>
+              <p data-i18n="methodology.steps.0.description">Definimos juntos el alcance (Rules of Engagement).</p>
+            </div>
+          </article>
+          <article class="timeline-step reveal">
+            <span class="step-number">02</span>
+            <div>
+              <h3 data-i18n="methodology.steps.1.title">Reconocimiento y Escaneo</h3>
+              <p data-i18n="methodology.steps.1.description">Usamos herramientas líderes (Nmap, Nessus).</p>
+            </div>
+          </article>
+          <article class="timeline-step reveal">
+            <span class="step-number">03</span>
+            <div>
+              <h3 data-i18n="methodology.steps.2.title">Análisis y Explotación Controlada</h3>
+              <p data-i18n="methodology.steps.2.description">Simulamos ataques reales (Metasploit, Burp Suite).</p>
+            </div>
+          </article>
+          <article class="timeline-step reveal">
+            <span class="step-number">04</span>
+            <div>
+              <h3 data-i18n="methodology.steps.3.title">Reporte y Mitigación</h3>
+              <p data-i18n="methodology.steps.3.description">Entregamos un informe ejecutivo y técnico detallado.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="nosotros" class="section about">
+      <div class="section-wrapper">
+        <p class="section-kicker" data-i18n="team.kicker">El equipo</p>
+        <div class="section-heading">
+          <h2 data-i18n="team.title">Conoce a Nuestros Expertos</h2>
+          <p data-i18n="team.subtitle">Mentores certificados OSCP, arquitectos Zero Trust y analistas DevSecOps listos para acompañarte sprint a sprint.</p>
+        </div>
+        <figure class="video-frame reveal">
+          <iframe src="https://www.youtube.com/embed/pD9omZ8pZfU" title="Video sobre el equipo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <figcaption data-i18n="team.videoCaption">Video: cultura de PentGuin detrás del laboratorio ofensivo.</figcaption>
+        </figure>
+        <div class="team-grid">
+          <article class="team-card reveal">
+            <img src="https://images.unsplash.com/photo-1502685104226-ee32379fefbe?auto=format&fit=crop&w=400&q=80" alt="Líder de Consultora" />
+            <h3>Lucía Andrade</h3>
+            <p data-i18n="team.roles.0">Líder de Consultora (PO)</p>
+          </article>
+          <article class="team-card reveal">
+            <img src="https://images.unsplash.com/photo-1544723795-3fb6469f5b39?auto=format&fit=crop&w=400&q=80" alt="Scrum Master" />
+            <h3>Miguel Choque</h3>
+            <p data-i18n="team.roles.1">Scrum Master</p>
+          </article>
+          <article class="team-card reveal">
+            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=400&q=80" alt="Pentester" />
+            <h3>Valeria Ríos</h3>
+            <p data-i18n="team.roles.2">Pentester Web Sr.</p>
+          </article>
+          <article class="team-card reveal">
+            <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=400&q=80" alt="Arquitecto de Seguridad" />
+            <h3>Renzo Aguilar</h3>
+            <p data-i18n="team.roles.3">Arquitecto de Seguridad Zero Trust</p>
+          </article>
+          <article class="team-card reveal">
+            <img src="https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=400&q=80" alt="Analista DevSecOps" />
+            <h3>Sofía Ibáñez</h3>
+            <p data-i18n="team.roles.4">Analista DevSecOps</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="por-que" class="section">
+      <div class="section-wrapper">
+        <p class="section-kicker" data-i18n="reasons.kicker">Diferenciales</p>
+        <div class="section-heading">
+          <h2 data-i18n="reasons.title">Por Qué Elegirnos</h2>
+        </div>
+        <div class="reasons-grid">
+          <article class="reason-card reveal">
+            <h3 data-i18n="reasons.items.0.title">Enfoque 100% Ético</h3>
+            <p data-i18n="reasons.items.0.description">Operamos bajo contratos claros y trazabilidad completa.</p>
+          </article>
+          <article class="reason-card reveal">
+            <h3 data-i18n="reasons.items.1.title">Reportes Accionables (CVSS)</h3>
+            <p data-i18n="reasons.items.1.description">Priorizamos hallazgos por severidad con guías de remediación.</p>
+          </article>
+          <article class="reason-card reveal">
+            <h3 data-i18n="reasons.items.2.title">Metodología Ágil (Sprints)</h3>
+            <p data-i18n="reasons.items.2.description">Iteramos contigo cada semana para validar avances.</p>
+          </article>
+          <article class="reason-card reveal">
+            <h3 data-i18n="reasons.items.3.title">Cumplimiento Académico (Supervisión UPC)</h3>
+            <p data-i18n="reasons.items.3.description">Respaldamos la calidad bajo estándares académicos.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto" class="section contact">
+      <div class="section-wrapper">
+        <p class="section-kicker" data-i18n="contact.kicker">Contacto</p>
+        <div class="section-heading">
+          <h2 data-i18n="contact.title">¿Listo para empezar?</h2>
+          <p data-i18n="contact.description">Comparte tus objetivos y agenda una sesión con nuestro equipo de PentGuin.</p>
+        </div>
+        <form class="contact-form" autocomplete="on" novalidate>
+          <div class="form-group">
+            <label for="nombre" data-i18n="contact.form.nameLabel">Nombre</label>
+            <input type="text" id="nombre" name="nombre" required data-i18n-placeholder="contact.form.namePlaceholder" placeholder="Ingresa tu nombre" />
+          </div>
+          <div class="form-group">
+            <label for="email" data-i18n="contact.form.emailLabel">Email de la Empresa</label>
+            <input type="email" id="email" name="email" required data-i18n-placeholder="contact.form.emailPlaceholder" placeholder="nombre@empresa.com" />
+          </div>
+          <div class="form-group full">
+            <label for="mensaje" data-i18n="contact.form.messageLabel">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required data-i18n-placeholder="contact.form.messagePlaceholder" placeholder="Cuéntanos sobre tus sistemas, plazos y objetivos"></textarea>
+          </div>
+          <button type="submit" class="btn primary" data-i18n="contact.form.button">Enviar Solicitud</button>
+          <p class="form-note" data-i18n="contact.form.note">Firmamos NDA y compartimos propuesta técnica en 72 horas.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="section-wrapper footer-grid">
+      <div>
+        <strong>PentGuin</strong>
+        <p>© 2025 PentGuin. Todos los derechos reservados.</p>
+      </div>
+      <div>
+        <a href="#" data-i18n="footer.terms">Términos y Condiciones del Servicio</a>
+      </div>
+      <div>
+        <p data-i18n="footer.contactLabel">Contacto Rápido</p>
+        <a href="mailto:contacto@pentguin.com">contacto@pentguin.com</a>
+        <a href="tel:+51987654321">+51 987 654 321</a>
+      </div>
+    </div>
+  </footer>
+
+  <div class="chat-widget" aria-live="polite">
+    <div class="chat-panel" id="chatPanel">
+      <div class="chat-header">
+        <div class="chat-header-content">
+          <div class="chat-avatar">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 5C13.66 5 15 6.34 15 8C15 9.66 13.66 11 12 11C10.34 11 9 9.66 9 8C9 6.34 10.34 5 12 5ZM12 19.2C9.5 19.2 7.29 17.92 6 15.98C6.03 13.99 10 12.9 12 12.9C13.99 12.9 17.97 13.99 18 15.98C16.71 17.92 14.5 19.2 12 19.2Z" fill="currentColor"/>
+            </svg>
+          </div>
+          <div>
+            <strong data-i18n="chat.title">IA PentGuin</strong>
+            <p data-i18n="chat.subtitle">Chat en vivo (beta)</p>
+          </div>
+        </div>
+        <button class="chat-close" id="chatClose" data-i18n-aria-label="chat.closeLabel" aria-label="Cerrar chat">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M18 6L6 18M6 6L18 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+      </div>
+      <div class="chat-body" id="chatBody">
+        <div class="message bot" data-i18n="chat.initial">👋 ¡Hola! Soy PentGuin IA 🐧 ¿En qué puedo ayudarte con la seguridad de tu PyME? 🛡️</div>
+      </div>
+      <form class="chat-input" id="chatForm">
+        <input type="text" id="chatMessage" autocomplete="off" required data-i18n-placeholder="chat.placeholder" placeholder="Escribe tu consulta" />
+        <button type="submit" data-i18n="chat.button" aria-label="Enviar mensaje">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M22 2L11 13M22 2L15 22L11 13M22 2L2 9L11 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+      </form>
+    </div>
+    <button class="chat-toggle" id="chatToggle" data-i18n-aria-label="chat.openLabel" aria-label="Abrir chat">
+      <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M20 2H4C2.9 2 2 2.9 2 4V22L6 18H20C21.1 18 22 17.1 22 16V4C22 2.9 21.1 2 20 2ZM20 16H5.2L4 17.2V4H20V16Z" fill="currentColor"/>
+        <circle cx="12" cy="10" r="1.5" fill="currentColor"/>
+        <circle cx="8" cy="10" r="1.5" fill="currentColor"/>
+        <circle cx="16" cy="10" r="1.5" fill="currentColor"/>
+      </svg>
+      <span class="chat-pulse"></span>
+    </button>
+  </div>
+
+  <button id="backToTop" class="back-to-top" type="button" data-i18n-aria-label="backToTop.aria" aria-label="Subir al inicio">
+    <span class="back-to-top-ripple" aria-hidden="true"></span>
+    <span class="back-to-top-icon" aria-hidden="true">
+      <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M12 19V5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+        <path d="M7 9.5 12 4.5 17 9.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </span>
+    <span class="back-to-top-text" data-i18n="backToTop.label">Subir al inicio</span>
+  </button>
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "name": "PentGuin",
+      "url": "https://pentguin.example",
+      "logo": "https://fav.farm/🛡️",
+      "areaServed": "Latin America",
+      "telephone": "+51 900 000 000",
+      "email": "contacto@tuconsultora.com",
+      "sameAs": [
+        "https://www.linkedin.com/company/pentguin"
+      ],
+      "description": "Consultora de ciberseguridad enfocada en pentesting de aplicaciones web, móviles, APIs y redes para PyMEs."
+    }
+  </script>
+  <script src="js/main.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,154 @@
+{
+  "seo": {
+    "pageTitle": "PentGuin | Cybersecurity Consultancy",
+    "metaDescription": "Offensive security for SMEs: pentesting, API protection and agile reports by PentGuin. Request a tailored cyber assessment."
+  },
+  "ui": {
+    "darkMode": "Dark mode",
+    "lightMode": "Light mode",
+    "themeToggleAria": "Toggle theme"
+  },
+  "nav": {
+    "services": "Services",
+    "methodology": "Methodology",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "hero": {
+    "kicker": "Offensive consultancy",
+    "title": "We safeguard the future of your SMB from digital threats.",
+    "description": "Ethical Hacking and Pentesting services that uncover and mitigate critical vulnerabilities across your platforms.",
+    "cta": "Request an Assessment",
+    "note": "First response in under 24 hours.",
+    "metrics": [
+      { "value": "+120", "label": "Enterprise pentests delivered" },
+      { "value": "72h", "label": "First critical findings" },
+      { "value": "24/7", "label": "LATAM & remote coverage" }
+    ],
+    "trust": {
+      "title": "Trusted by tech leaders"
+    },
+    "glow": {
+      "primaryTitle": "Zero-Day Watchlist",
+      "primaryItem1": "OWASP Top 10",
+      "primaryItem2": "MITRE ATT&CK",
+      "primaryItem3": "CVSS 4.0 Ready",
+      "secondaryTitle": "Live Monitoring",
+      "secondaryStat": "+3.4M events/month",
+      "secondarySub": "Offensive telemetry 24/7"
+    }
+  },
+  "services": {
+    "kicker": "Services",
+    "title": "Our Offensive Security Services",
+    "subtitle": "Hybrid manual + automated testing tailored to your digital maturity.",
+    "cards": [
+      {
+        "title": "Web Application Pentesting",
+        "description": "Deep analysis aligned to OWASP Top 10."
+      },
+      {
+        "title": "API Security",
+        "description": "REST/SOAP endpoint testing to stop data leakage."
+      },
+      {
+        "title": "Mobile Application Analysis",
+        "description": "Vulnerability discovery across your iOS/Android apps."
+      },
+      {
+        "title": "Network & Server Audits",
+        "description": "Controlled scans and exploits across your infrastructure."
+      }
+    ]
+  },
+  "methodology": {
+    "kicker": "How we work",
+    "title": "A Transparent and Effective Process",
+    "subtitle": "Tooling plus agile ceremonies give you end-to-end visibility for every finding.",
+    "steps": [
+      {
+        "title": "Planning & Scope",
+        "description": "We define the Rules of Engagement together."
+      },
+      {
+        "title": "Recon & Scanning",
+        "description": "We rely on leading tools such as Nmap and Nessus."
+      },
+      {
+        "title": "Analysis & Controlled Exploitation",
+        "description": "We simulate real attacks with Metasploit and Burp Suite."
+      },
+      {
+        "title": "Reporting & Mitigation",
+        "description": "Executive plus technical reports ready for remediation."
+      }
+    ]
+  },
+  "team": {
+    "kicker": "The team",
+    "title": "Meet Our Experts",
+    "subtitle": "OSCP-certified mentors, Zero Trust architects and DevSecOps analysts supporting each sprint.",
+    "videoCaption": "Video: the PentGuin culture behind our offensive lab.",
+    "roles": [
+      "Consulting Lead (PO)",
+      "Scrum Master",
+      "Senior Web Pentester",
+      "Zero Trust Security Architect",
+      "DevSecOps Analyst"
+    ]
+  },
+  "reasons": {
+    "kicker": "Advantages",
+    "title": "Why Choose Us",
+    "items": [
+      {
+        "title": "100% Ethical Approach",
+        "description": "Clear contracts plus full traceability."
+      },
+      {
+        "title": "Actionable CVSS Reports",
+        "description": "We prioritize severity and remediation guidance."
+      },
+      {
+        "title": "Agile Sprints",
+        "description": "Weekly iterations keep you in the loop."
+      },
+      {
+        "title": "Academic Compliance (UPC)",
+        "description": "Quality backed by university supervision."
+      }
+    ]
+  },
+  "contact": {
+    "kicker": "Contact",
+    "title": "Ready to get started?",
+    "description": "Share your goals and book a session with the PentGuin crew.",
+    "form": {
+      "nameLabel": "Name",
+      "namePlaceholder": "Enter your name",
+      "emailLabel": "Business Email",
+      "emailPlaceholder": "name@company.com",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Tell us about systems, timelines, and objectives",
+      "button": "Send Request",
+      "note": "We sign an NDA and ship a technical proposal within 72 hours."
+    }
+  },
+  "footer": {
+    "terms": "Service Terms & Conditions",
+    "contactLabel": "Quick Contact"
+  },
+  "chat": {
+    "title": "PentGuin AI",
+    "subtitle": "Live chat (beta)",
+    "initial": "Hi! I'm PentGuin AI. How can I help secure your business today?",
+    "placeholder": "Type your question",
+    "button": "Send",
+    "closeLabel": "Close chat",
+    "openLabel": "Open chat"
+  },
+  "backToTop": {
+    "label": "Back to top",
+    "aria": "Return to the header"
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "seo": {
+    "pageTitle": "PentGuin | Consultora de Ciberseguridad",
+    "metaDescription": "PentGuin protege a las PyMEs con pentesting, seguridad de APIs y metodologías ágiles. Agenda una evaluación ofensiva 360°."
+  },
+  "ui": {
+    "darkMode": "Modo oscuro",
+    "lightMode": "Modo claro",
+    "themeToggleAria": "Cambiar tema"
+  },
+  "nav": {
+    "services": "Servicios",
+    "methodology": "Metodología",
+    "about": "Nosotros",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "kicker": "Consultora ofensiva",
+    "title": "Protegemos el futuro de tu PyME contra amenazas digitales.",
+    "description": "Servicios especializados de Hacking Ético y Pentesting para identificar y mitigar vulnerabilidades críticas en tus sistemas.",
+    "cta": "Solicitar una Evaluación",
+    "note": "Respuesta inicial en menos de 24 horas.",
+    "metrics": [
+      { "value": "+120", "label": "Pentests empresariales entregados" },
+      { "value": "72h", "label": "Primeros hallazgos críticos" },
+      { "value": "24/7", "label": "Cobertura LATAM & remota" }
+    ],
+    "trust": {
+      "title": "Confían en PentGuin"
+    },
+    "glow": {
+      "primaryTitle": "Zero-Day Watchlist",
+      "primaryItem1": "OWASP Top 10",
+      "primaryItem2": "MITRE ATT&CK",
+      "primaryItem3": "CVSS 4.0 Ready",
+      "secondaryTitle": "Live Monitoring",
+      "secondaryStat": "+3.4M eventos/mes",
+      "secondarySub": "Telemetría ofensiva 24/7"
+    }
+  },
+  "services": {
+    "kicker": "Servicios",
+    "title": "Nuestros Servicios de Seguridad Ofensiva",
+    "subtitle": "Cobertura integral con pruebas manuales y automatizadas, adaptadas a tu madurez digital.",
+    "cards": [
+      {
+        "title": "Pentesting de Aplicaciones Web",
+        "description": "Análisis profundo bajo metodología OWASP Top 10."
+      },
+      {
+        "title": "Seguridad de APIs",
+        "description": "Evaluación de endpoints REST/SOAP para prevenir fugas de datos."
+      },
+      {
+        "title": "Análisis de Aplicaciones Móviles",
+        "description": "Identificación de vulnerabilidades en tus apps iOS/Android."
+      },
+      {
+        "title": "Auditoría de Redes y Servidores",
+        "description": "Escaneo y pruebas controladas de tu infraestructura de red."
+      }
+    ]
+  },
+  "methodology": {
+    "kicker": "Cómo trabajamos",
+    "title": "Un Proceso Transparente y Eficaz",
+    "subtitle": "Integramos herramientas líderes y ceremonias ágiles para que tengas visibilidad completa de cada hallazgo.",
+    "steps": [
+      {
+        "title": "Planificación y Alcance",
+        "description": "Definimos juntos el alcance (Rules of Engagement)."
+      },
+      {
+        "title": "Reconocimiento y Escaneo",
+        "description": "Usamos herramientas líderes (Nmap, Nessus)."
+      },
+      {
+        "title": "Análisis y Explotación Controlada",
+        "description": "Simulamos ataques reales (Metasploit, Burp Suite)."
+      },
+      {
+        "title": "Reporte y Mitigación",
+        "description": "Entregamos un informe ejecutivo y técnico detallado."
+      }
+    ]
+  },
+  "team": {
+    "kicker": "El equipo",
+    "title": "Conoce a Nuestros Expertos",
+    "subtitle": "Mentores certificados OSCP, arquitectos Zero Trust y analistas DevSecOps listos para acompañarte sprint a sprint.",
+    "videoCaption": "Video: cultura de PentGuin detrás del laboratorio ofensivo.",
+    "roles": [
+      "Líder de Consultora (PO)",
+      "Scrum Master",
+      "Pentester Web Sr.",
+      "Arquitecto de Seguridad Zero Trust",
+      "Analista DevSecOps"
+    ]
+  },
+  "reasons": {
+    "kicker": "Diferenciales",
+    "title": "Por Qué Elegirnos",
+    "items": [
+      {
+        "title": "Enfoque 100% Ético",
+        "description": "Operamos bajo contratos claros y trazabilidad completa."
+      },
+      {
+        "title": "Reportes Accionables (CVSS)",
+        "description": "Priorizamos hallazgos por severidad con guías de remediación."
+      },
+      {
+        "title": "Metodología Ágil (Sprints)",
+        "description": "Iteramos contigo cada semana para validar avances."
+      },
+      {
+        "title": "Cumplimiento Académico (Supervisión UPC)",
+        "description": "Respaldamos la calidad bajo estándares académicos."
+      }
+    ]
+  },
+  "contact": {
+    "kicker": "Contacto",
+    "title": "¿Listo para empezar?",
+    "description": "Comparte tus objetivos y agenda una sesión con nuestro equipo de PentGuin.",
+    "form": {
+      "nameLabel": "Nombre",
+      "namePlaceholder": "Ingresa tu nombre",
+      "emailLabel": "Email de la Empresa",
+      "emailPlaceholder": "nombre@empresa.com",
+      "messageLabel": "Mensaje",
+      "messagePlaceholder": "Cuéntanos sobre tus sistemas, plazos y objetivos",
+      "button": "Enviar Solicitud",
+      "note": "Firmamos NDA y compartimos propuesta técnica en 72 horas."
+    }
+  },
+  "footer": {
+    "terms": "Términos y Condiciones del Servicio",
+    "contactLabel": "Contacto Rápido"
+  },
+  "chat": {
+    "title": "IA PentGuin",
+    "subtitle": "Chat en vivo (beta)",
+    "initial": "Hola, soy PentGuin IA. ¿En qué puedo ayudarte con la seguridad de tu PyME?",
+    "placeholder": "Escribe tu consulta",
+    "button": "Enviar",
+    "closeLabel": "Cerrar chat",
+    "openLabel": "Abrir chat"
+  },
+  "backToTop": {
+    "label": "Subir al inicio",
+    "aria": "Volver al encabezado"
+  }
+}
